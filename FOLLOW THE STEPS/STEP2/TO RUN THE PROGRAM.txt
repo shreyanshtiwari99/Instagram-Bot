@@ -1,0 +1,6 @@
+To run the program you can simply double click and run if you have installed python.
+Alternatively you can open the program in notepad/notepad++.
+Click on File > Open Containing Folder > cmd
+Then type the following command - py "filename.py"
+
+Example - py HashtagTraversing.py

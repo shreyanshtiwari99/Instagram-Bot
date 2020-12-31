@@ -1,0 +1,45 @@
+The BOT consists of the following programs :
+
+1. AccountTraversing.py
+2. Comment.py
+3. Follow.py
+4. HashtagTraversing.py
+5. Unfollow.py
+
+You can use any of these according to your needs. A brief description of each will be given below.
+
+
+ACCOUNT TRAVERSING :
+
+This program targets a list of instagram accounts which will be given by you. It opens those accounts and
+likes and comments on a certain number of posts of that account. The number of posts to be interacted can
+also be entered directly by you. Read the detailed documentation by opening AccountTraversing.py in notepad
+or notepad++. 
+
+
+HASHTAG TRAVERSING :
+
+This program targets a list of instagram hashtags which will be given by you. It opens the TOP posts with the hashtag and
+likes and comments on a certain number of posts of that particular hashtag. The number of posts to be interacted can
+also be entered directly by you. Read the detailed documentation by opening HashtagTraversing.py in notepad
+or notepad++.
+
+COMMENT:
+
+This program targets a list of instagram hashtags which will be given by you. It opens the RECENT posts with the hashtag and
+likes and comments on a certain number of posts of that particular hashtag. The number of posts to be interacted can
+also be entered directly by you. Read the detailed documentation by opening Comment.py in notepad
+or notepad++.  
+
+FOLLOW:
+
+This program targets a list of instagram hashtags which will be given by you. It opens the RECENT posts with the hashtag and
+follows the accounts of that particular hashtag. The number of accounts to be interacted can
+also be entered directly by you.It will store the followed accounts in a text file named "AccountsFollowed.txt".
+Read the detailed documentation by opening Follow.py in notepad or notepad++. 
+
+UNFOLLOW :
+
+This program should only be run after the FOLLOW program. It will make use of the "AccountsFollowed.txt" file created by FOLLOW
+program and unfollow all of the accounts which were followed by the FOLLOW program. Make sure to delete the "AccountsFollowed.txt"
+file after this program is completed running. Read the detailed documentation by opening Unfollow.py in notepad or notepad++. 

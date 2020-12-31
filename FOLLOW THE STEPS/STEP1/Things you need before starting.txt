@@ -1,0 +1,77 @@
+--------------------------------------------DISCLAIMER----------------------------------------------------------------------- 
+THIS BOT WAS BUILT SOLELY FOR LEARNING AND EDUCARIONAL PURPOSES. I DO NOT TAKE ANY RESPONSIBILITY IF ANYTHING HAPPENS TO YOUR
+ACCOUNT. AS WELL AS IF ANY WRONG DOING IS DONE USING THIS, I SHALL NOT BE HELD RESPONSIBLE.
+IF YOU HAVE ANY PROBLEMS OR QUERIES FEEL FREE TO CONTACT ME :
+
+e-mail : shreyanshtiwari99@gmail.com
+linkedin : linkedin.com/in/shreyanshtiwari369/
+Github : github.com/shreyanshtiwari99
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+You must have the following installed on your system before running the BOT :
+
+1. Chrome/Firefox Browser
+2. Chrome/Firefox selenium web driver
+3. Python
+4. Chocolatey
+
+-------------------STEP 1 :
+How to install PYTHON :
+
+1. Download the latest python setup from - https://www.python.org/downloads/
+	(Download the version according to your machine. Example - Windows 64-bit)
+2. Open the setup(.exe) file after it has finished downloading.
+3. In the first step you will have an option to check "Add Python 3.8 to PATH". Make sure to check it if it isn't already.
+4. Click on "Install now".
+5. After te installatio is finished you will get a message - "Setup was successful". You can close the window now.
+6. Open cmd to check python version and confirm that it has been installed correctly. 
+	Type the following command to check python version - python
+7. Make sure to restart your machine after the installation in successful
+
+-------------------STEP 2 :
+How to install SELENIUM driver after PYTHON is finished installing :
+
+1. Open cmd console as an administrator.
+2. Type the following command in the console - pip install selenium
+3. Hit enter and selenium will begin installing.
+4. Say yes to any messages you get and the driver will be installed in a few seconds depending upon your internet speed.
+
+
+
+-------------------STEP 3 :
+How to Install CHOCOLATEY :
+
+1. Open start menu and type "cmd" and click on "Run as administrator".
+2. Open the following link in any browser - chocolatey.org/docs/installation.
+3. You will see "Install with cmd.exe" in the website, below which it says "Run the following command".
+4. Click on the "Copy Command Text" button beside, paste in the console which you had opened and hit ENTER.
+5. Chocolaty will now begin installing.
+6. After the process is completed, open a new cmd console and type "choco" and hit enter to check the version of chocolaty installed
+7. This will confirm that Chocolatey has been installed on your machine.
+
+
+-------------------STEP 4 :(Install chrome or firefox depending on what browser you want to automate in)
+How to install Chrome Web driver :(If you prefer chrome)
+
+1. Open another cmd console as an administrator.
+2. Go to this website - chocolatey.org/packages/selenium-chrome-driver
+3. Copy the command given in the website which might look something like : "choco install selenium-chrome-driver --pre"
+4. Paste it into the cmd console and hit ENTER.
+5. Say yes to any script messages and the driver be installed in a few seconds depending upon your internet speed. 
+
+How to install FIREFOX Web driver :(If you prefer firefox)
+
+1. Open another cmd console as an administrator.
+2. Go to this website - chocolatey.org/packages/selenium-gecko-driver
+3. Copy the command given in the website which might look something like : "choco install selenium-gecko-driver"
+4. Paste it into the cmd console and hit ENTER.
+5. Say yes to any script messages and the driver be installed in a few seconds depending upon your internet speed. 
+
+
+
+
+
+
+ 
+
