@@ -41,10 +41,10 @@ for w in lines:
 print(list_accs) 
 print(len(list_accs))
 count = len(list_accs)
-user_id = input("Enter your instagram account username : ")#This is where your instagram username will be taken as input
+user_id = input("Enter your instagram account username : ")
 print("YOUR ACCOUNT : ", user_id)
 print("PLEASE ENTER YOUR PASSWORD BELOW. FOR PRIVACY REASONS YOUR INPUT KEY STROKES WILL BE HIDDEN FOR THE PASSWORD FIELD. DON'T WORRY JUST TYPE THE COMPLETE PASSWORD AND PRESS ENTER")
-password = getpass()#This is where your instagram password will be taken as input
+password = getpass()
 numPosts = input("Enter the number of posts you want to target for each hashtag or account : ")
 print("NUMBER OF POSTS TO BE TARGETTED : ", numPosts)
 print("Starting selenium web browser...")
