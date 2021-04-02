@@ -60,7 +60,7 @@ def searchtag(acc):
         btn_one = driver.find_element_by_xpath("/html/body/div[1]/section/main/div/header/section/div[1]/div[1]/div/div[2]/div/span/span[1]/button/div/span").click()
         sleep(3)
         unfollow_btn = driver.find_element_by_xpath("/html/body/div[5]/div/div/div/div[3]/button[1]").click()
-        sleep(5)
+        sleep(random.randint(10,15))
     except Exception:
         print("Some exception occured")
 

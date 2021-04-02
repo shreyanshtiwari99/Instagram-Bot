@@ -93,7 +93,7 @@ def likephoto(amount):
 
                     driver.find_element_by_xpath("/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/textarea").send_keys(random.choice(list))
                     sleep(random.randint(3,6))
-                    driver.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/button').click()#postbtn
+                    driver.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/button[2]').click()#postbtn
                     print("Comment done!")
                     sleep(5)
                 except (NoSuchElementException, TypeError, ElementNotInteractableException):

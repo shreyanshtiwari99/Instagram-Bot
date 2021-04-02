@@ -93,10 +93,10 @@ def likephoto(amount):
                     list = ['Wow! This gives me the vibes! '+heart+heart,'Amazing post! '+fire+fire,'Dope! '+fire+fire,'Damn!! '+starstruck+starstruck, 'Surreal! '+starstruck+heart_eyes, 'Mesmerising '+heart_eyes+starstruck, 'Superb ! '+heart_eyes+heart_eyes, 'Thats amazing '+heart_eyes+fire, 'Loved it! '+heart+heart, 'Incredible! '+heart_eyes+starstruck, 'Stunning job '+heart_eyes+fire, 'Outstanding piece of work '+heart_eyes+fire, 'Too good '+starstruck+fire, 'Soooo good '+starstruck+heart_eyes, 'This is just awesome '+heart_eyes+heart]
 
                     driver.find_element_by_xpath("/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/textarea").send_keys(random.choice(list))
-                    sleep(random.randint(3,6))
-                    driver.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/button').click()#postbtn
+                    sleep(random.randint(5,10))
+                    driver.find_element_by_xpath('/html/body/div[5]/div[2]/div/article/div[3]/section[3]/div/form/button[2]').click()#postbtn
                     print("Comment done!")
-                    sleep(5)
+                    sleep(random.randint(10,15))
                 except NoSuchElementException:
                     print("Some exception occurred")
                     driver.find_element_by_class_name('coreSpriteRightPaginationArrow').click()
